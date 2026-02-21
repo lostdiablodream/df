@@ -26,6 +26,68 @@
 
 ---
 
+# Расшифровка аббревиатур из чата
+
+| Аббревиатура | Расшифровка | Контекст применения |
+|---|---|---|
+| **AI** | Artificial Intelligence — Искусственный интеллект | Общий термин для систем на основе ML/LLM |
+| **API** | Application Programming Interface — Интерфейс программирования приложений | Способ подключения к LLM-моделям (Anthropic API, OpenAI API) |
+| **AST** | Abstract Syntax Tree — Абстрактное синтаксическое дерево | Структура разбора кода для анализа и индексации |
+| **BPE** | Byte-Pair Encoding — Байт-парное кодирование | Алгоритм токенизации текста/кода в LLM |
+| **CI/CD** | Continuous Integration / Continuous Delivery — Непрерывная интеграция / доставка | Автоматизация сборки, тестирования, деплоя |
+| **CLI** | Command Line Interface — Интерфейс командной строки | Способ запуска инструментов (Aider, Claude Code) |
+| **CSS** | Cascading Style Sheets — Каскадные таблицы стилей | Язык стилизации веб-страниц |
+| **DB** | Database — База данных | Хранилище структурированных данных |
+| **DevOps** | Development + Operations — Разработка + эксплуатация | Культура и практики автоматизации IT-процессов |
+| **DSL** | Domain-Specific Language — Предметно-ориентированный язык | BrowserGym DSL — язык команд для управления браузером |
+| **GDPR** | General Data Protection Regulation — Общий регламент о защите данных | Европейский стандарт конфиденциальности данных |
+| **GPU** | Graphics Processing Unit — Графический процессор | Аппаратное ускорение обучения и инференса LLM |
+| **GUI** | Graphical User Interface — Графический пользовательский интерфейс | Визуальный интерфейс приложения |
+| **HIPAA** | Health Insurance Portability and Accountability Act | Американский стандарт защиты медицинских данных |
+| **HTML** | HyperText Markup Language — Язык гипертекстовой разметки | Язык структуры веб-страниц |
+| **HTTP** | HyperText Transfer Protocol — Протокол передачи гипертекста | Протокол веб-запросов (используется при API-вызовах) |
+| **IDE** | Integrated Development Environment — Интегрированная среда разработки | VS Code, Cursor, Windsurf |
+| **IFT** | Instruction Following Fine-tuning — Дообучение следованию инструкциям | Этап обучения LLM на парах инструкция→ответ |
+| **ITPM** | Input Tokens Per Minute — Входящих токенов в минуту | Метрика rate limit API Anthropic |
+| **JS** | JavaScript | Язык программирования для веба и Node.js |
+| **JSON** | JavaScript Object Notation — Объектная нотация JavaScript | Формат данных для API-запросов и конфигов |
+| **KV Cache** | Key-Value Cache — Кэш ключей и значений | Механизм кэширования вычислений attention в LLM |
+| **LLM** | Large Language Model — Большая языковая модель | Claude, GPT, Gemini, Qwen, DeepSeek и т.д. |
+| **MCP** | Model Context Protocol — Протокол контекста модели | Стандарт Anthropic для подключения внешних инструментов к LLM |
+| **MIT** | Massachusetts Institute of Technology | Лицензия с открытым исходным кодом (MIT License) |
+| **ML** | Machine Learning — Машинное обучение | Раздел ИИ, основа LLM |
+| **MoE** | Mixture of Experts — Смесь экспертов | Архитектура нейросети с условной активацией частей (Qwen, DeepSeek) |
+| **MR** | Merge Request — Запрос на слияние | GitLab-аналог Pull Request |
+| **npm** | Node Package Manager — Менеджер пакетов Node.js | Установка JS-зависимостей |
+| **OTPM** | Output Tokens Per Minute — Исходящих токенов в минуту | Метрика rate limit API Anthropic |
+| **PDF** | Portable Document Format — Переносимый формат документов | Формат файлов |
+| **pip** | Pip Installs Packages — Менеджер пакетов Python | Установка Python-зависимостей |
+| **PR** | Pull Request — Запрос на внесение изменений | GitHub-механизм предложения изменений в репозиторий |
+| **RAG** | Retrieval-Augmented Generation — Генерация с извлечением | LLM + поиск по внешней базе знаний/кода |
+| **ReAct** | Reasoning + Acting — Рассуждение + действие | Агентный паттерн: чередование размышления и исполнения |
+| **REST** | Representational State Transfer | Архитектурный стиль API (HTTP-методы) |
+| **RLHF** | Reinforcement Learning from Human Feedback — Обучение с подкреплением от человеческой обратной связи | Этап обучения LLM на оценках людей |
+| **RLAIF** | Reinforcement Learning from AI Feedback | RLHF, где оценщиком выступает другая модель, а не человек |
+| **RLM** | (Rate Limit) — Ограничение на частоту запросов | Технические ограничения API |
+| **RPM** | Requests Per Minute — Запросов в минуту | Метрика rate limit API Anthropic |
+| **SDK** | Software Development Kit — Набор инструментов разработчика | OpenHands SDK, OpenAI Agents SDK |
+| **SFT** | Supervised Fine-Tuning — Дообучение под наблюдением | Этап обучения модели на примерах с правильными ответами |
+| **SPA** | Single Page Application — Одностраничное приложение | Архитектура фронтенда (React SPA в OpenHands GUI) |
+| **SQL** | Structured Query Language — Язык структурированных запросов | Язык работы с реляционными базами данных |
+| **SSH** | Secure Shell — Защищённая оболочка | Протокол удалённого доступа к серверу |
+| **SWE** | Software Engineering — Программная инженерия | SWE-Bench — бенчмарк по задачам разработки ПО |
+| **SWE-Bench** | Software Engineering Benchmark | Тест: агент решает реальные GitHub Issues в кодовых базах |
+| **TCO** | Total Cost of Ownership — Совокупная стоимость владения | Экономический анализ всех затрат на инструмент |
+| **TDD** | Test-Driven Development — Разработка через тесты | Сначала пишутся тесты, потом код |
+| **UI** | User Interface — Пользовательский интерфейс | Визуальная часть приложения |
+| **URL** | Uniform Resource Locator — Унифицированный указатель ресурса | Адрес в интернете |
+| **VNC** | Virtual Network Computing — Виртуальные сетевые вычисления | Протокол удалённого рабочего стола (GUI-автоматизация в OpenHands) |
+| **VSCode** | Visual Studio Code | Редактор кода от Microsoft (встроен в OpenHands) |
+| **WebSocket** | Web Socket — Веб-сокет | Протокол двустороннего соединения в реальном времени |
+| **XML** | eXtensible Markup Language — Расширяемый язык разметки | Формат структурированных данных |
+
+---
+
 ## 1. Исполнительное резюме
 
 Разница между общением с языковой моделью через браузерный чат (claude.ai, ChatGPT, Gemini Advanced и т.д.) и использованием агентной платформы наподобие **OpenHands** — это качественный, а не количественный разрыв. Чат — это **консультант**, отвечающий текстом. Агент — это **исполнитель**, действующий в реальной среде.
